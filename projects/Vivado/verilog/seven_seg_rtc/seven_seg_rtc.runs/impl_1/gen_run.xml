@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1474863770">
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="seven_seg_rtc_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="seven_seg_rtc_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="seven_seg_rtc_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="seven_seg_rtc_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-DCP" Name="seven_seg_rtc_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="seven_seg_rtc_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="seven_seg_rtc_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="seven_seg_rtc_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="seven_seg_rtc_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="seven_seg_rtc_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="seven_seg_rtc_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="seven_seg_rtc_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="seven_seg_rtc_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="seven_seg_rtc_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="seven_seg_rtc_route_status.pb"/>
+  <File Type="BITSTR-SYSDEF" Name="seven_seg_rtc.sysdef"/>
+  <File Type="ROUTE-TIMING-RPX" Name="seven_seg_rtc_timing_summary_routed.rpx"/>
+  <File Type="BG-BGN" Name="seven_seg_rtc.bgn"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="seven_seg_rtc_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BITSTR-MMI" Name="seven_seg_rtc.mmi"/>
+  <File Type="ROUTE-TIMING-PB" Name="seven_seg_rtc_timing_summary_routed.pb"/>
+  <File Type="PLACE-UTIL-PB" Name="seven_seg_rtc_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="seven_seg_rtc_utilization_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="seven_seg_rtc_placed.dcp"/>
+  <File Type="BITSTR-NKY" Name="seven_seg_rtc.nky"/>
+  <File Type="PLACE-CLK" Name="seven_seg_rtc_clock_utilization_placed.rpt"/>
+  <File Type="PWROPT-TIMING" Name="seven_seg_rtc_timing_summary_pwropted.rpt"/>
+  <File Type="OPT-DRC" Name="seven_seg_rtc_drc_opted.rpt"/>
+  <File Type="RDI-RDI" Name="seven_seg_rtc.vdi"/>
+  <File Type="PWROPT-DRC" Name="seven_seg_rtc_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="seven_seg_rtc_pwropt.dcp"/>
+  <File Type="BITSTR-BMM" Name="seven_seg_rtc_bd.bmm"/>
+  <File Type="PA-TCL" Name="seven_seg_rtc.tcl"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="seven_seg_rtc_postroute_physopt.dcp"/>
+  <File Type="OPT-DCP" Name="seven_seg_rtc_opt.dcp"/>
+  <File Type="BITSTR-RBT" Name="seven_seg_rtc.rbt"/>
+  <File Type="PLACE-IO" Name="seven_seg_rtc_io_placed.rpt"/>
+  <File Type="OPT-TIMING" Name="seven_seg_rtc_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="seven_seg_rtc.hwdef"/>
+  <File Type="PLACE-TIMING" Name="seven_seg_rtc_timing_summary_placed.rpt"/>
+  <File Type="INIT-TIMING" Name="seven_seg_rtc_timing_summary_init.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="seven_seg_rtc_methodology_drc_opted.rpt"/>
+  <File Type="PLACE-CTRL" Name="seven_seg_rtc_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="seven_seg_rtc_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="seven_seg_rtc_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="seven_seg_rtc_postplace_pwropt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="seven_seg_rtc_timing_summary_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="seven_seg_rtc.bit"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="seven_seg_rtc_timing_summary_routed.rpt"/>
+  <File Type="BG-BIN" Name="seven_seg_rtc.bin"/>
+  <File Type="ROUTE-SIMILARITY" Name="seven_seg_rtc_incremental_reuse_routed.rpt"/>
+  <File Type="BITSTR-MSK" Name="seven_seg_rtc.msk"/>
+  <File Type="ROUTE-CLK" Name="seven_seg_rtc_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="seven_seg_rtc_postroute_physopt_bb.dcp"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="seven_seg_rtc_timing_summary_postroute_physopted.pb"/>
+  <File Type="BG-DRC" Name="seven_seg_rtc.drc"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/seven_seg_rtc.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/seven_seg_rtc_tb.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/design_1/design_1.bd">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../octal decoder/octal decoder.srcs/sources_1/bd/design_1/design_1.bd"/>
+        <Attr Name="ImportTime" Val="1472757515"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="seven_seg_rtc"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/seven_seg_rtc.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

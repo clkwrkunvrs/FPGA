@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:26 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Tue Nov 22 16:15:36 2016
+# Process ID: 25181
+# Current directory: /home/trk/git_fpga/new_git/projects/Vivado/verilog/Lab6/Lab6.runs/impl_1
+# Command line: vivado -log RAM.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source RAM.tcl -notrace
+# Log file: /home/trk/git_fpga/new_git/projects/Vivado/verilog/Lab6/Lab6.runs/impl_1/RAM.vdi
+# Journal file: /home/trk/git_fpga/new_git/projects/Vivado/verilog/Lab6/Lab6.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source RAM.tcl -notrace

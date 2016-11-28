@@ -1,0 +1,17 @@
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2016.3/bin/unwrapped/lnx64.o/xelab -wto 56ba2152dc8c487cad4f3c942697f9b8 --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Counter_tb_behav xil_defaultlib.Counter_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "/home/trk/git_fpga/new_git/projects/Vivado/verilog/Lab5/Lab5.1.srcs/sources_1/new/Counter.v" Line 24. Module Counter has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/trk/git_fpga/new_git/projects/Vivado/verilog/Lab5/Lab5.1.sim/sim_3/behav/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/trk/git_fpga/new_git/projects/Vivado/verilog/Lab5/Lab5.1.srcs/sources_1/new/Counter.v" Line 24. Module Counter has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/trk/git_fpga/new_git/projects/Vivado/verilog/Lab5/Lab5.1.sim/sim_3/behav/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Counter
+Compiling module xil_defaultlib.Counter_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Counter_tb_behav

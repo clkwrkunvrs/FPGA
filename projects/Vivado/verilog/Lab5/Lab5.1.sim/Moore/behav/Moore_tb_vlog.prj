@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../Lab5.1.srcs/Moore/imports/new/Moore_tb.v"
+verilog xil_defaultlib  "../../../Lab5.1.srcs/sources_1/new/Moore.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/trk/git_fpga/new_git/projects/Vivado/verilog/Lab5/Lab5.1.srcs/sources_1/new/Counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/trk/git_fpga/new_git/projects/Vivado/verilog/Lab5/Lab5.1.srcs/sim_1/new/Counter_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Counter_tb
+WARNING: [VRFC 10-2500] empty parameter declaration is only allowed in SystemVerilog mode [/home/trk/git_fpga/new_git/projects/Vivado/verilog/Lab5/Lab5.1.srcs/sim_1/new/Counter_tb.v:1]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/trk/git_fpga/new_git/projects/Vivado/verilog/Lab5/Lab5.1.sim/sim_3/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

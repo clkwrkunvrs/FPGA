@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/fpga/FPGA/Vivado/seven_seg_rtc/seven_seg_rtc.sim/sim_1/synth/func/seven_seg_rtc_tb_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_seg_rtc
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/fpga/FPGA/Vivado/seven_seg_rtc/seven_seg_rtc.srcs/seven_seg_rtc_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_seg_rtc_tb

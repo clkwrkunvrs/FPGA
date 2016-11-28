@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Sun Sep 18 20:47:39 2016
+# Process ID: 8621
+# Current directory: /home/fpga/FPGA/Vivado/seven_seg_rtc/seven_seg_rtc.runs/synth_1
+# Command line: vivado -log seven_seg_rtc_tb.vds -mode batch -messageDb vivado.pb -notrace -source seven_seg_rtc_tb.tcl
+# Log file: /home/fpga/FPGA/Vivado/seven_seg_rtc/seven_seg_rtc.runs/synth_1/seven_seg_rtc_tb.vds
+# Journal file: /home/fpga/FPGA/Vivado/seven_seg_rtc/seven_seg_rtc.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source seven_seg_rtc_tb.tcl -notrace

@@ -1,0 +1,58 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:26 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Mon Nov 21 19:56:40 2016
+# Process ID: 23326
+# Current directory: /home/trk/git_fpga/new_git/projects/Vivado/verilog/Lab5/Lab5.1.runs/impl_1
+# Command line: vivado -log top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top.tcl -notrace
+# Log file: /home/trk/git_fpga/new_git/projects/Vivado/verilog/Lab5/Lab5.1.runs/impl_1/top.vdi
+# Journal file: /home/trk/git_fpga/new_git/projects/Vivado/verilog/Lab5/Lab5.1.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace
+Command: open_checkpoint top_routed.dcp
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1002.434 ; gain = 0.000 ; free physical = 2332 ; free virtual = 23678
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.3
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/trk/git_fpga/new_git/projects/Vivado/verilog/Lab5/Lab5.1.runs/impl_1/.Xil/Vivado-23326-fpga-iMac/dcp/top.xdc]
+Finished Parsing XDC File [/home/trk/git_fpga/new_git/projects/Vivado/verilog/Lab5/Lab5.1.runs/impl_1/.Xil/Vivado-23326-fpga-iMac/dcp/top.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1232.703 ; gain = 0.000 ; free physical = 2108 ; free virtual = 23456
+Restored from archive | CPU: 0.010000 secs | Memory: 0.078484 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1232.703 ; gain = 0.000 ; free physical = 2108 ; free virtual = 23456
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2016.3 (64-bit) build 1682563
+Command: write_bitstream -force -no_partial_bitfile top.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command write_bitstream
+INFO: [DRC 23-27] Running DRC with 8 threads
+WARNING: [DRC 23-20] Rule violation (ZPS7-1) PS7 block required - The PS7 cell must be used in this Zynq design in order to enable correct default configuration.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 1 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./top.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-186] '/home/trk/git_fpga/new_git/projects/Vivado/verilog/Lab5/Lab5.1.runs/impl_1/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Mon Nov 21 19:56:59 2016. For additional details about this file, please refer to the WebTalk help file at /opt/Xilinx/Vivado/2016.3/doc/webtalk_introduction.html.
+INFO: [Common 17-83] Releasing license: Implementation
+15 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1677.812 ; gain = 445.109 ; free physical = 1725 ; free virtual = 23075
+INFO: [Vivado_Tcl 4-395] Unable to parse hwdef file top.hwdef
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 21 19:56:59 2016...
